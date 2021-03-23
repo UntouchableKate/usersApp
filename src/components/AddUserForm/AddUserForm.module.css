@@ -1,0 +1,68 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 100;
+    background-color: #fff;
+    top: 15%;
+    left: 33.5%;
+    width: 450px;
+    box-shadow: 0px 0px 9px 3px rgb(95 95 95 / 47%);
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.closeModalBtn{
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: 6%;
+    left: 89%;
+}
+
+.wrapper >h3{
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.wrapper > input {
+    width: 440px;
+    height: 30px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+
+.toggleButton{
+    width: 51px;
+    height: 40px;
+    margin-top: 24px;
+}
+
+.toggleButton > img{
+    width: 100%;
+    height: auto;
+}
+
+.addUserBtn{
+    width: 130px;
+    height: 22px;
+    border-radius: 3px;
+    background-color: lightgrey;
+    font-weight: bold;
+    border: 2px solid blue;
+    margin: 20px auto 0;
+}
+
+.cancelEditingBtn{
+    width: 100px;
+    border: 1px solid lightgray;
+    margin: 10px auto 0; 
+}
+
+.previewImg{
+    width: 150px;
+    max-height: 150px;
+}

@@ -1,0 +1,13 @@
+.wrapper{
+    margin: 2rem 2rem 0 0;
+    max-height: 2rem;
+}
+
+.search{
+    width: 20rem;
+    height: 1.63rem;
+    border: 2px solid #777;
+    border-radius: 8px;
+    padding-left: 5px;
+    font-family:  sans-serif;
+}

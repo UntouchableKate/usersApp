@@ -1,0 +1,18 @@
+.wrapper{
+    margin: 2rem 2rem 0 2rem;
+}
+
+.select{
+    outline: none;
+    width: 15rem;
+    height: 2rem;
+    border: 2px solid #777;
+    border-radius: 8px;
+
+}
+
+.select:focus{
+    border: 2px solid cornflowerblue;
+}
+
+
